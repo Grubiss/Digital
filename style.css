@@ -1,0 +1,23 @@
+* {
+    margin: 0 auto;
+}
+
+.promo {
+    min-width: 100%;
+    min-height: 100%;
+    width: 1440px;
+    height: 700px;
+    background: url(promo.png) no-repeat;
+}
+
+.header {
+    display: flex;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.login a {
+    text-decoration: none;
+}
