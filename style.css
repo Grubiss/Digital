@@ -259,6 +259,10 @@
     opacity: 0.5;
 }
 
+.partners {
+    height: 500px;
+}
+
 @font-face {
     font-family: MontserratBold;
     src: url(MotserratBold.ttf);
