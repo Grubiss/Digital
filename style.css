@@ -12,12 +12,71 @@
 
 .header {
     display: flex;
+    align-items: center;
+    height: 115px;
 }
 
 .header a {
     text-decoration: none;
+    font-size: 19px;
+    font-family: MontserratBold;
+    color: #fff;
+    letter-spacing: 1.5px;
+    position: relative;
+    right: 35px;
+    /* margin-right: 128px; */
 }
 
-.login a {
-    text-decoration: none;
+.login-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-box a {
+    /* /* text-decoration: none; */
+    font-size: 13px;
+    /* margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 7px; */
+}
+
+.logo {
+    /* margin-right: 379px; */
+}
+
+.log_in {
+    /* margin-top: 4px;
+    margin-bottom: 7px;
+    margin-right: 45px; */
+    position: relative;
+    bottom: 2px;
+    left: 22px;
+}
+
+.sign_up {
+    position: relative;
+    left: 37px;
+    bottom: 2px;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 14px 10px 14px;
+    /* margin-top: 4px;
+    margin-right: 18px;
+    margin-bottom: 7px; */
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url(MotserratBold.ttf);
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url(MontserratRegular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto.ttf);
 }
