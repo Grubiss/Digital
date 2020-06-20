@@ -420,6 +420,95 @@
     font-size: 22px;
 }
 
+.search {
+    margin-top: 94px;
+    height: 260px;
+    text-align: center;
+}
+
+.search h3 {
+    margin: 0;
+    font-family: MontserratBold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.search h4 {
+    margin-top: 18px;
+    font-family: Roboto;
+    letter-spacing: 0.9px;
+    font-size: 16px;
+}
+
+.search form {
+    margin-top: 37px;
+}
+
+.submittype {
+    width: 160px;
+    margin-left: 7px;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-family: MontserratBold;
+    font-size: 14px;
+    color: white;
+    border: 0px;
+    background: #ff4e50;
+}
+
+.texttype {
+    width: 230px;
+    height: 35px;
+}
+
+.texttype::-webkit-input-placeholder {
+    padding-left: 10px;
+    letter-spacing: 0.2px;
+}
+
+footer {
+    width: 1440px;
+}
+
+.footer {
+    width: 940px;
+    margin-top: 33px;
+    display: flex;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    width: 100px;
+}
+
+.company p {
+    margin: 0;
+    font-family: MontserratBold;
+    font-size: 14px;
+}
+
+.company a {
+    margin: 0;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: MontserratBold;
+    color: #ff4e50;
+    letter-spacing: 1.5px;
+}
+
 @font-face {
     font-family: MontserratBold;
     src: url(MotserratBold.ttf);
