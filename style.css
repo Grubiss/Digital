@@ -261,6 +261,163 @@
 
 .partners {
     height: 500px;
+    text-align: center;
+}
+
+.partners h3 {
+    font-family: MontserratBold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 51px;
+    margin-bottom: 83px;
+    color: #333333;
+}
+
+.partners a {
+    letter-spacing: 0.5px;
+    font-family: MontserratBold;
+    font-size: 13px;
+    text-decoration: none;
+    color: #ff4e50;
+    position: relative;
+    top: 71px;
+    border: 2px solid #ff4e50;
+    padding: 8px 27px 10px;
+    border-radius: 20px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.photo h5 {
+    font-family: MontserratBold;
+    font-size: 14px;
+    position: relative;
+    top: 12px;
+}
+
+.photo p {
+    font-family: Roboto;
+    font-size: 14px;
+    position: relative;
+    top: 28px;
+    right: 2px;
+    opacity: 0.5;
+}
+
+.photo4 {
+    position: relative;
+    right: 2px;
+}
+
+.photo3 {
+    position: relative;
+    left: 5px;
+}
+
+.photo2 {
+    position: relative;
+    right: 1px;
+}
+
+.photo1 {
+    position: relative;
+    left: 3px;
+}
+
+.ideas {
+    height: 1050px;
+    box-sizing: border-box;
+}
+
+.idea {
+    margin: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pic1 {
+    background: url(ideas1.png) no-repeat;
+    box-sizing: border-box;
+    width: 300px;
+    height: 310px;
+}
+
+.pic2 {
+    background: url(ideas2.png) no-repeat;
+    box-sizing: border-box;
+    width: 300px;
+    height: 310px;
+}
+
+.pic3 {
+    background: url(ideas3.png) no-repeat;
+    box-sizing: border-box;
+    width: 300px;
+    height: 310px;
+}
+
+.pic4 {
+    background: url(ideas4.png) no-repeat;
+    box-sizing: border-box;
+    width: 300px;
+    height: 310px;
+}
+
+.pic5 {
+    background: url(ideas5.png) no-repeat;
+    box-sizing: border-box;
+    width: 620px;
+    height: 310px;
+}
+
+.pic6 {
+    background: url(ideas6.png) no-repeat;
+    box-sizing: border-box;
+    width: 620px;
+    height: 310px;
+}
+
+.pic7 {
+    background: url(ideas7.png) no-repeat;
+    box-sizing: border-box;
+    width: 300px;
+    height: 310px;
+}
+
+.heading {
+    font-family: MontserratBold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    top: 17px;
+    color: #333333;
+    margin-bottom: 54px;
+}
+
+.qwert {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.qwert h3 {
+    margin: 0;
+    font-family: MontserratBold;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 22px;
 }
 
 @font-face {
