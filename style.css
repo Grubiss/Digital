@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     height: 115px;
+    margin: 0;
 }
 
 .header a {
@@ -48,7 +49,7 @@
     bottom: 2px;
     border: 2px solid white;
     border-radius: 25px;
-    padding: 10px 14px 10px 14px;
+    padding: 9px 13px 8px 14px;
 }
 
 .intro {
@@ -111,7 +112,6 @@
     font-family: MontserratBold;
     letter-spacing: 1px;
     font-size: 20px;
-    position: relative;
     padding-top: 95px;
     color: #333333;
     margin-bottom: 36px;
@@ -128,6 +128,7 @@
     width: 300px;
     height: 400px;
     margin: 0;
+    border-radius: 5px;
 }
 
 .step1 {
@@ -316,7 +317,6 @@
 
 .photo3 {
     position: relative;
-    left: 5px;
 }
 
 .photo2 {
@@ -326,7 +326,6 @@
 
 .photo1 {
     position: relative;
-    left: 3px;
 }
 
 .ideas {
@@ -565,4 +564,118 @@ footer {
 @font-face {
     font-family: Roboto;
     src: url(Roboto.ttf);
+}
+
+@media screen and (max-width :768px) {
+    .promo {
+        width: 768px;
+        background-position: center center;
+    }
+    .header a {
+        right: 68px;
+    }
+    .login-box {
+        position: relative;
+        left: 32px;
+    }
+    .body {
+        width: 748px;
+        margin-left: 10px;
+    }
+    .Howitworks h3 {
+        position: relative;
+        left: 2px;
+    }
+    .step {
+        background-position: center center;
+        width: 236px;
+    }
+    .step1 span {
+        right: 60px;
+    }
+    .step2 span {
+        right: 60px;
+    }
+    .step3 span {
+        right: 60px;
+    }
+    .photos {
+        justify-content: space-around;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    .photo {
+        margin: 0 25px;
+    }
+    .photo4 {
+        left: 63px;
+    }
+    .photo3 {
+        right: 54px;
+    }
+    .photo2 {
+        left: 52px;
+        top: 82px;
+    }
+    .photo1 {
+        top: 82px;
+        right: 64px;
+    }
+    .partners a {
+        top: 152px;
+    }
+    .ideas {
+        margin-top: 260px;
+    }
+    .idea {
+        width: 236px;
+    }
+    .pic2 h3 {
+        white-space: pre-wrap;
+    }
+    .pic3 {
+        background-position: -65px -1px;
+    }
+    .pic6 {
+        width: 492px;
+        background-position: -60px -2px;
+    }
+    .pic5 {
+        width: 492px;
+        background-position: -70px -2px;
+    }
+    .pic7 {
+        background-position: -30px -2px;
+    }
+    .search {
+        margin-top: 92px;
+    }
+    footer {
+        width: 768px;
+    }
+    .footer {
+        width: 768px;
+        justify-content: space-around;
+    }
+    .logo_bottom {
+        position: relative;
+        right: 7px;
+        bottom: 2px;
+    }
+    .company {
+        right: 0;
+        bottom: 1px;
+    }
+    .partner {
+        right: 21px;
+        bottom: 2px;
+    }
+    .madeby div {
+        position: relative;
+        left: 5px;
+    }
+    .madeby p {
+        position: relative;
+        left: 5px;
+    }
 }
