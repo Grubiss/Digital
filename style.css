@@ -475,14 +475,29 @@ footer {
     width: 940px;
     margin-top: 33px;
     display: flex;
+    justify-content: space-between;
 }
 
 .company {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
     margin: 0;
     width: 100px;
+    height: 111px;
+    box-sizing: border-box;
+    position: relative;
+    right: 68px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-between;
+    height: 91px;
 }
 
 .company p {
@@ -495,18 +510,46 @@ footer {
     margin: 0;
     text-decoration: none;
     font-family: Roboto;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.5px;
     position: relative;
-    top: 20px;
+    top: 10px;
 }
 
-.logo a {
+.logo_bottom {
+    margin: 0;
+}
+
+.logo_bottom a {
     text-decoration: none;
     font-size: 15px;
     font-family: MontserratBold;
     color: #ff4e50;
     letter-spacing: 1.5px;
+}
+
+.partner {
+    font-family: MontserratBold;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    right: 110px;
+}
+
+.madeby {
+    display: flex;
+    flex-direction: column;
+    margin-right: left;
+    margin: 0;
+}
+
+.madeby p {
+    font-family: MontserratBold;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-left: auto;
+    margin-bottom: 9px;
 }
 
 @font-face {
