@@ -454,15 +454,16 @@
     color: white;
     border: 0px;
     background: #ff4e50;
+    cursor: pointer;
 }
 
 .texttype {
-    width: 230px;
+    width: 220px;
     height: 35px;
+    padding-left: 10px;
 }
 
 .texttype::-webkit-input-placeholder {
-    padding-left: 10px;
     letter-spacing: 0.2px;
 }
 
